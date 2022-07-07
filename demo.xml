@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Equipment xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <License licenseId="" licensePath=""/>
+  <DataCollections>
+    <GroupAIDs>
+      <AID id="100">
+        <Variable id="200"/>
+        <Variable id="201"/>
+      </AID>
+      <AID id="">
+        <Variable id="205"/>
+      </AID>
+      <AID id="102"/>
+    </GroupAIDs>
+    <GroupBIDs>
+      <BID id="2000">
+        <AID id="100"/>
+      </BID>
+      <BID id="2001">
+        <AID id="101"/>
+        <AID id="102"/>
+      </BID>
+    </GroupBIDs>
+    <GroupCIDs>
+      <BID id="8"/>
+      <BID id="9"/>
+      <BID id="10"/>
+    </GroupCIDs>
+  </DataCollections>
+</Equipment>
